@@ -16,25 +16,32 @@ const MASTER_MAP = [
     {
         "groupName": "Studies",
         "items":[
-            {"name": "Item A", "shortcutKey": "q", "url": "https://google.com/?q=q"},
-            {"name": "Item B", "shortcutKey": "w", "url": "https://google.com/?q=w"},
-            {"name": "Item C", "shortcutKey": "e", "url": "https://google.com/?q=e"}
+            {"name": "Udemy", "shortcutKey": "q", "url": "https://www.udemy.com/?q=q"},
+            {"name": "codeSignal", "shortcutKey": "w", "url": "https://codesignal.com/?q=w"},
+            {"name": "leetCode", "shortcutKey": "e", "url": "https://leetcode.com/?q=e"}
         ]
     },
     {
         "groupName": "Work",
         "items":[
-            {"name": "Item D", "shortcutKey": "a", "url": "https://google.com/?q=a"},
-            {"name": "Item E", "shortcutKey": "s", "url": "https://google.com/?q=s"},
-            {"name": "Item F", "shortcutKey": "d", "url": "https://google.com/?q=d"}
+            {"name": "Kibana", "shortcutKey": "a", "url": "https://63.241.116.144:8001/app/kibana#/dashboards?notFound=dashboard&_g=(filters:!())?q=a"},
+            {"name": "Office", "shortcutKey": "s", "url": "https://www.office.com/?auth=2&home=1?q=s"},
+            {"name": "Ribbon Portal", "shortcutKey": "d", "url": "https://portal.att-ucservices.com/portal3/index.html#/?gp=58dd812d72f99&session_timeout=1?q=d"},
+            {"name": "Moogsoft", "shortcutKey": "f", "url": "https://atlas.moogsoft.com/login/?q=f"},
+            {"name": "Asims Wiki", "shortcutKey": "g", "url": "https://wikijs.aadya.tech/?q=g"},
+            {"name": "Github", "shortcutKey": "h", "url": "https://github.com/?q=h"}
+
         ]
     },
     {
         "groupName": "Personal",
         "items":[
-            {"name": "Item I", "shortcutKey": "z", "url": "https://google.com/?q=z"},
-            {"name": "Item J", "shortcutKey": "x", "url": "https://google.com/?q=x"},
-            {"name": "Item K", "shortcutKey": "c", "url": "https://google.com/?q=c"}
+            {"name": "Youtube", "shortcutKey": "z", "url": "https://youtube.com/?q=z"},
+            {"name": "Hulu", "shortcutKey": "x", "url": "https://Hulu.com/?q=x"},
+            {"name": "Netflix", "shortcutKey": "c", "url": "https://netflix.com/?q=c"},
+            {"name": "Hacker News", "shortcutKey": "v", "url": "https://thehackernews.com/?q=v"},
+            {"name": "Reddit", "shortcutKey": "b", "url": "https://reddit.com/?q=b"},
+            {"name": "Wallhaven", "shortcutKey": "n", "url": "https://wallhaven.cc/?q=n"}
         ]
     }
 ]
@@ -110,7 +117,7 @@ function shortcutListener(e) {
 }
 
 function main(){
-    setupWelcomeMessage();
+    //setupWelcomeMessage();
     setupGroups();
     document.addEventListener('keyup', shortcutListener, false);
 }
