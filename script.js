@@ -20,7 +20,7 @@ const MASTER_MAP = [
             {"name": "codeSignal", "shortcutKey": "w", "url": "https://codesignal.com/?q=w"},
             {"name": "leetCode", "shortcutKey": "e", "url": "https://leetcode.com/?q=e"},
             {"name": "Github", "shortcutKey": "r", "url": "https://github.com/?q=r"},
-            {"name": "StackOverflow", "shortcutKey": "t", "url": "https://stackoverflow.com/?q=t"}
+            {"name": "StackOverflow", "shortcutKey": "t", "url": "https://stackoverflow.com/?q=t"},
             {"name": "Itch.io", "shortcutKey": "y", "url": "https://itch.io/?q=y"}
 
         ]
