@@ -14,23 +14,25 @@ const SHORTCUT_TIMEOUT = 1500;
 // but intended to be used with just regular latin letters.
 const MASTER_MAP = [
     {
-        "groupName": "Studies",
+        "groupName": "Development",
         "items":[
             {"name": "Udemy", "shortcutKey": "q", "url": "https://www.udemy.com/?q=q"},
             {"name": "codeSignal", "shortcutKey": "w", "url": "https://codesignal.com/?q=w"},
-            {"name": "leetCode", "shortcutKey": "e", "url": "https://leetcode.com/?q=e"}
+            {"name": "leetCode", "shortcutKey": "e", "url": "https://leetcode.com/?q=e"},
+            {"name": "Github", "shortcutKey": "r", "url": "https://github.com/?q=r"},
+            {"name": "StackOverflow", "shortcutKey": "t", "url": "https://stackoverflow.com/?q=t"}
+            {"name": "Itch.io", "shortcutKey": "y", "url": "https://itch.io/?q=y"}
+
         ]
     },
     {
         "groupName": "Work",
         "items":[
             {"name": "Kibana", "shortcutKey": "a", "url": "https://63.241.116.144:8001/app/kibana#/dashboards?notFound=dashboard&_g=(filters:!())?q=a"},
-            {"name": "Office", "shortcutKey": "s", "url": "https://www.office.com/?auth=2&home=1?q=s"},
+            {"name": "MS Office", "shortcutKey": "s", "url": "https://www.office.com/?auth=2&home=1?q=s"},
             {"name": "Ribbon Portal", "shortcutKey": "d", "url": "https://portal.att-ucservices.com/portal3/index.html#/?gp=58dd812d72f99&session_timeout=1?q=d"},
             {"name": "Moogsoft", "shortcutKey": "f", "url": "https://atlas.moogsoft.com/login/?q=f"},
-            {"name": "Asims Wiki", "shortcutKey": "g", "url": "https://wikijs.aadya.tech/?q=g"},
-            {"name": "Github", "shortcutKey": "h", "url": "https://github.com/?q=h"}
-
+            {"name": "Asims Wiki", "shortcutKey": "g", "url": "https://wikijs.aadya.tech/?q=g"}
         ]
     },
     {
